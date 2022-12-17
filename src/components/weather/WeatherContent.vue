@@ -25,9 +25,9 @@ export default {
     };
   },
   methods: {
-    selectCity(city) {
+    async selectCity(city) {
       if (city.selected) {
-        const weather = this.getWeatherInfo(city);
+        const weather = await this.getWeatherInfo(city);
         this.weatherList.push(weather);
         console.log(weather, "weather");
       } else {

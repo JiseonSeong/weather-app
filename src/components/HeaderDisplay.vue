@@ -8,6 +8,14 @@
 <script>
 export default {
   name: "HeaderDisplay",
+  props: {
+    username: {
+      type: String,
+      default() {
+        return "Raina";
+      },
+    },
+  },
 };
 </script>
 

@@ -1,7 +1,10 @@
 <template>
   <div class="content-header">
-    <h2>날씨를 알려드리겠습니다</h2>
-    <p>원하는 도시를 선택해주세요</p>
+    <h3>
+      Let me give you information about the weather in many cities in Canada and
+      Seoul in Korea.
+    </h3>
+    <p>Choose the city you want!</p>
   </div>
 </template>
 

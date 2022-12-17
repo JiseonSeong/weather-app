@@ -30,4 +30,16 @@ export default {
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 1em;
 }
+
+@media only all and (max-width: 700px) {
+  .weather-list {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media only all and (min-width: 1200px) {
+  .weather-list {
+    grid-template-columns: repeat(5, 1fr);
+  }
+}
 </style>

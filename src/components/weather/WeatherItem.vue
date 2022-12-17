@@ -3,7 +3,7 @@
     <h3>{{ weather.label }}</h3>
     <p class="temperature">{{ weather.temperature }}&deg;c</p>
     <p class="info">
-      <img src="https://placeimg.com/20/20/any" alt="any" />
+      <img :src="weather.icon" alt="icon" />
       <span>humidity {{ weather.humidity }}</span>
       <span>wind {{ weather.wind }}m/s</span>
     </p>
@@ -23,6 +23,7 @@ export default {
           temperature: 20,
           humidity: 15,
           wind: 1.5,
+          icon: "https://placeimg.com/20/20/any",
         };
       },
     },
